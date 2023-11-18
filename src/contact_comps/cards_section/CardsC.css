@@ -1,0 +1,67 @@
+.contact_cards {
+    background-color: #ffffff;
+    z-index: 0;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .contact_cards .container .cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+  }
+  .contact_cards .container .cards .card1, .contact_cards .container .cards .card2, .contact_cards .container .cards .card3, .contact_cards .container .cards .card4 {
+    border: 1px solid #bebebe;
+    display: grid;
+    justify-content: center;
+    text-align: left;
+    width: 400px;
+    background-color: white;
+    height: 190px;
+  }
+  .contact_cards .container .cards .card1 i, .contact_cards .container .cards .card2 i, .contact_cards .container .cards .card3 i, .contact_cards .container .cards .card4 i {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #191919;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: -10px;
+  }
+  .contact_cards .container .cards .card1:hover, .contact_cards .container .cards .card2:hover, .contact_cards .container .cards .card3:hover, .contact_cards .container .cards .card4:hover {
+    background-color: #F9D783;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+  .contact_cards .container .cards .card1:hover i, .contact_cards .container .cards .card2:hover i, .contact_cards .container .cards .card3:hover i, .contact_cards .container .cards .card4:hover i {
+    background-color: #FFFFFF;
+    color: #191919;
+  }
+  .contact_cards .container .cards h3 {
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "DM Sans", sans-serif;
+    padding-top: 30px;
+    margin-right: 100px;
+  }
+  .contact_cards .container .cards h3 a {
+    padding-left: 50px;
+    margin-right: 50px;
+  }
+  .contact_cards .container .cards p {
+    font-size: 17px;
+    width: 200px;
+    margin-left: 100px;
+    line-height: 30px;
+    color: #666666;
+    font-family: "Inter", sans-serif;
+    margin-top: -50px;
+  }
+  .contact_cards .container .cards .pcard2 {
+    width: 160px;
+  }

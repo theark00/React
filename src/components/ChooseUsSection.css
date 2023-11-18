@@ -1,0 +1,95 @@
+.choose-us .container .section-title {
+    text-align: center;
+    margin-top: -40px;
+    padding-top: 65px;
+    padding-bottom: 35px;
+  }
+  @media (min-width: 768px) {
+    .choose-us .container .section-title {
+      padding-top: 120px;
+      padding-bottom: 90px;
+      width: 450px;
+      text-align: left;
+    }
+  }
+  .choose-us .container .vänster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (min-width: 771px) {
+    .choose-us .container .vänster {
+      display: flex;
+      flex-direction: column;
+      margin-top: -50px;
+      margin-left: 80px;
+      gap: 30px;
+      align-items: start;
+    }
+  }
+  .choose-us .container .vänster i {
+    position: absolute;
+    display: flex;
+    margin-left: -75px;
+    font-size: 30px;
+    margin-top: 10px;
+    border: 1px solid #666666;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #191919;
+  }
+  .choose-us .container .vänster h3 {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+  }
+  .choose-us .container .vänster p {
+    color: #666666;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+  }
+  .choose-us .container .höger {
+    position: relative;
+    display: none;
+  }
+  @media (min-width: 1200px) {
+    .choose-us .container .höger {
+      display: flex;
+      margin-top: -600px;
+      padding-bottom: 150px;
+    }
+  }
+  .choose-us .container .höger img {
+    margin-top: -10px;
+    width: 645px;
+    margin-left: 450px;
+  }
+  @media (min-width: 1399px) {
+    .choose-us .container .höger img {
+      margin-top: -10px;
+      width: 645px;
+      margin-left: 650px;
+    }
+  }
+  .choose-us .container .höger .bakom-bild {
+    display: none;
+    z-index: -1;
+    position: relative;
+    background-color: #F0EFE9;
+    margin-top: 150px;
+    box-sizing: border-box;
+    margin-left: 530px;
+  }
+  @media (min-width: 1850px) {
+    .choose-us .container .höger .bakom-bild {
+      position: absolute;
+      display: flex;
+      width: 1056px;
+      height: 410px;
+      margin-top: 170px;
+    }
+  }

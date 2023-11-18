@@ -1,0 +1,15 @@
+.sponsors .container {
+    display: flex;
+  }
+  .sponsors .container .images {
+    display: none;
+  }
+  @media (min-width: 1400px) {
+    .sponsors .container .images {
+      display: flex;
+      gap: 40px;
+      margin-top: 50px;
+      padding-bottom: 30px;
+    }
+  }
+  

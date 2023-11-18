@@ -1,0 +1,92 @@
+.meet-our-team {
+    background-color: RGBA(240, 208, 130, 0.93);
+  }
+  .meet-our-team .container .över {
+    display: flex;
+  }
+  .meet-our-team .container .över .section-title {
+    text-align: center;
+    font-weight: 500;
+  }
+  @media (min-width: 768px) {
+    .meet-our-team .container .över .section-title {
+      width: 600px;
+      text-align: left;
+    }
+  }
+  .meet-our-team .container .över .btn-yellow {
+    display: none;
+  }
+  .meet-our-team .container .över .btn-yellow i {
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+  @media (min-width: 1400px) {
+    .meet-our-team .container .över .btn-yellow {
+      margin-left: 517px;
+      margin-top: 140px;
+      display: flex;
+      background-color: #f9d783;
+      border: 1px solid;
+      width: 200px;
+      height: 55px;
+      justify-content: center;
+    }
+    .meet-our-team .container .över .btn-yellow:hover {
+      background-color: #191919;
+      color: #e2e2cb;
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+  .meet-our-team .container .team-image {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+  .meet-our-team .container .team-image h3 {
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .meet-our-team .container .team-image p {
+    font-size: 17px;
+    color: #666666;
+    font-weight: 500;
+  }
+  @media (min-width: 768px) {
+    .meet-our-team .container .team-image {
+      display: grid;
+      gap: 22px;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (min-width: 1400px) {
+    .meet-our-team .container .team-image {
+      display: grid;
+      gap: 22px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  .meet-our-team .container .punkter {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: -70px;
+    padding-bottom: 80px;
+  }
+  .meet-our-team .container .center-content {
+    padding-bottom: 30px;
+  }
+  .meet-our-team .container .center-content .btn-yellow {
+    border: 1px solid;
+    display: flex;
+  }
+  @media (min-width: 1400px) {
+    .meet-our-team .container .center-content .btn-yellow {
+      display: none;
+    }
+  }

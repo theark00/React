@@ -1,0 +1,108 @@
+footer {
+    background-color: #0E1021;
+  }
+  footer .slut .right-vave-slut {
+    display: none;
+  }
+  @media (min-width: 1400px) {
+    footer .slut .right-vave-slut {
+      position: relative;
+      display: flex;
+      justify-content: right;
+    }
+  }
+  footer .slut .right-vave-slut img {
+    position: absolute;
+    margin-top: 260px;
+  }
+  footer .slut .container {
+    padding-top: 100px;
+  }
+  footer .slut .container .slut-över {
+    display: none;
+  }
+  @media (min-width: 1184px) {
+    footer .slut .container .slut-över {
+      display: flex;
+      color: #FFFFFF;
+      gap: 80px;
+      justify-content: center;
+    }
+  }
+  footer .slut .container .slut-över p {
+    display: none;
+  }
+  @media (min-width: 1200px) {
+    footer .slut .container .slut-över p {
+      display: flex;
+      font-size: 16px;
+      width: 70px;
+      padding-top: 20px;
+      line-height: 40px;
+      color: RGBA(255, 255, 255, 0.7);
+    }
+  }
+  footer .slut .container .slut-över .logo-text {
+    margin-top: -20px;
+  }
+  footer .slut .container .slut-över .logo-text p {
+    width: 310px;
+    line-height: 25px;
+  }
+  footer .slut .container .slut-över .help-text p, footer .slut .container .slut-över .resources-text p, footer .slut .container .slut-över .link-text p {
+    width: 160px;
+  }
+  footer .slut .container .slut-tag {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+  footer .slut .container .slut-tag .slut-tag-vänster {
+    display: none;
+  }
+  @media (min-width: 1200px) {
+    footer .slut .container .slut-tag .slut-tag-vänster {
+      font-size: 13px;
+      display: flex;
+      justify-content: left;
+      color: RGBA(255, 255, 255, 0.7);
+    }
+  }
+  @media (min-width: 1400px) {
+    footer .slut .container .slut-tag .slut-tag-vänster {
+      font-size: 16px;
+    }
+  }
+  footer .slut .container .slut-tag .social {
+    display: none;
+  }
+  @media (min-width: 1184px) {
+    footer .slut .container .slut-tag .social {
+      display: flex;
+      margin-left: 700px;
+    }
+  }
+  footer .slut .container .slut-tag .social a {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-left: 14px;
+  }
+  footer .slut .container .slut-tag .social a:hover {
+    color: #F9D783;
+  }
+  footer .slut .container .pop-up {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  @media (min-width: 1184px) {
+    footer .slut .container .pop-up {
+      display: none;
+    }
+  }
+  footer .slut .container .pop-up .menu-bars {
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+  }

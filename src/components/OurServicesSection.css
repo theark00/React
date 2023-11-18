@@ -1,0 +1,127 @@
+.our-services {
+    background-color: #F0EFE9;
+    z-index: 0;
+    position: relative;
+  }
+  .our-services .back-lines {
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    right: 0;
+    display: none;
+  }
+  @media (min-width: 1400px) {
+    .our-services .back-lines {
+      display: block;
+    }
+  }
+  .our-services .container .section-title {
+    text-align: center;
+    font-weight: 500;
+  }
+  @media (min-width: 1017px) {
+    .our-services .container .section-title {
+      width: 600px;
+      text-align: left;
+    }
+  }
+  @media (min-width: 769px) {
+    .our-services .container .section-title {
+      width: 600px;
+    }
+  }
+  .our-services .container .cards {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+  @media (min-width: 768px) {
+    .our-services .container .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+  }
+  @media (min-width: 1400px) {
+    .our-services .container .cards {
+      display: flex;
+      height: 320px;
+      flex-direction: row;
+    }
+  }
+  .our-services .container .cards .card1, .our-services .container .cards .card2, .our-services .container .cards .card3, .our-services .container .cards .card4 {
+    width: 300px;
+    background-color: white;
+    text-align: left;
+    height: 330px;
+  }
+  .our-services .container .cards .card1 i, .our-services .container .cards .card2 i, .our-services .container .cards .card3 i, .our-services .container .cards .card4 i {
+    display: flex;
+    margin-left: 220px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #191919;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .our-services .container .cards .card1:hover, .our-services .container .cards .card2:hover, .our-services .container .cards .card3:hover, .our-services .container .cards .card4:hover {
+    background-color: #F9D783;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+  .our-services .container .cards .card1:hover i, .our-services .container .cards .card2:hover i, .our-services .container .cards .card3:hover i, .our-services .container .cards .card4:hover i {
+    background-color: #FFFFFF;
+    color: #191919;
+  }
+  .our-services .container .cards .card1 a, .our-services .container .cards .card2 a, .our-services .container .cards .card3 a, .our-services .container .cards .card4 a {
+    display: inline-block;
+    color: #191919;
+    text-decoration: none;
+    margin-right: 40px;
+    position: relative;
+  }
+  .our-services .container .cards .card1 a.active::after, .our-services .container .cards .card1 a:hover::after, .our-services .container .cards .card2 a.active::after, .our-services .container .cards .card2 a:hover::after, .our-services .container .cards .card3 a.active::after, .our-services .container .cards .card3 a:hover::after, .our-services .container .cards .card4 a.active::after, .our-services .container .cards .card4 a:hover::after {
+    content: "";
+    position: absolute;
+    font-weight: 500;
+    height: 2px;
+    width: 35px;
+    background-color: #191919;
+    left: 0px;
+    bottom: 60px;
+    transform: translate(calc(50% - 15px));
+  }
+  .our-services .container .cards h3 {
+    display: flex;
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    font-family: "DM Sans", sans-serif;
+    padding-top: 30px;
+  }
+  .our-services .container .cards p {
+    font-size: 17px;
+    width: 230px;
+    margin-left: 30px;
+    line-height: 30px;
+    color: #666666;
+    font-family: "Inter", sans-serif;
+  }
+  .our-services .container .center-content {
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+  .our-services .container .center-content .btn-black {
+    border: 1px solid #000000;
+    background-color: transparent;
+    color: #191919;
+  }
+  .our-services .container .center-content .btn-black:hover {
+    background-color: #F9D783;
+    color: #191919;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+  }

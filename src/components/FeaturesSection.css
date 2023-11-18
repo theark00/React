@@ -1,0 +1,70 @@
+.features .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  @media (min-width: 1200px) {
+    .features .container {
+      text-align: left;
+    }
+  }
+  @media (min-width: 768px) {
+    .features .container .section-title {
+      padding-top: 120px;
+      padding-bottom: 50px;
+      width: 460px;
+    }
+  }
+  .features .container .section-title h2 {
+    font-size: 45px;
+    padding-bottom: 50px;
+  }
+  @media (min-width: 768px) {
+    .features .container .section-title h2 {
+      font-size: 45px;
+    }
+  }
+  .features .container .section-title .btn-yellow {
+    padding: 15px 50px;
+    display: block;
+  }
+  @media (min-width: 768px) {
+    .features .container .section-title .btn-yellow {
+      padding: 15px 75px;
+      display: inline-block;
+    }
+  }
+  @media (min-width: 1400px) {
+    .features .container .section-title .btn-yellow {
+      padding: 15px 170px;
+      display: inline-block;
+    }
+  }
+  .features .container .höger {
+    display: none;
+    padding-left: 150px;
+    padding-top: 120px;
+    gap: 30px;
+  }
+  @media (min-width: 1200px) {
+    .features .container .höger {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
+  .features .container .höger h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 150px;
+    font-family: "DM Sans", sans-serif;
+  }
+  .features .container .höger p {
+    font-size: 17px;
+    width: 230px;
+    color: #666666;
+  }
+  .features .container .höger i {
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
